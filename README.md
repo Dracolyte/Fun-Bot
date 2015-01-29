@@ -1,3 +1,4 @@
+I DO NOT OWN THIS, all credit goes to DJ-Neon05.
 Fun Bot
 =======
 
