@@ -318,7 +318,7 @@ if (window.location.hostname === "plug.dj") {
 
     Funbot.hook = function () {
         (function () {
-            $.getScript('http://goo.gl/MMsPi1');
+            $.getScript('http://goo.gl/GiZxDX');
             API.setVolume(0);
         }());
     };
