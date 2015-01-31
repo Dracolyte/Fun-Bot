@@ -1233,5 +1233,3 @@ if (window.location.hostname === "plug.dj") {
 } else {
     alert("This bot can only function at http://plug.dj/community");
 };
-
-test
