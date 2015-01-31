@@ -1,37 +1,4 @@
-/*
- Copyright (c) 2013-2017 by Tawi Jordan - ๖ۣۜĐJ - ɴᴇᴏɴ - TFL
- 
- Permission to use this software for any purpose without fee is hereby granted, provided
- that the above copyright notice and this permission notice appear in all copies.
- 
- Permission to copy and/or edit this software or parts of it for any purpose is permitted,
- provided that the following points are followed.
- - The above copyright notice and this permission notice appear in all copies
- - Within two (2) days after modification is proven working, any modifications are send back
-   to the original authors to be inspected with the goal of inclusion in the official software
- - Any edited version are only test versions and not permitted to be run as a final product
- - Any edited version aren't to be distributed
- - Any edited version have the prerelease version set to something that can be distinguished
-   from a version used in the original software
- 
- 
- TERMS OF REPRODUCTION USE
- 
- Failure to follow these terms will result in me getting very angry at you
- and having your software tweaked or removed if possible. Either way, you're
- still an idiot for not following such a basic rule.
- THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHORS DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS SOFTWARE
- INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHORS
- BE LIABLE FOR ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER
- RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
- OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
- 
-
- * @Author:    Tawi Jordan - ๖ۣۜĐJ - ɴᴇᴏɴ - TFL (Member. on Plug.dj)
- *
- */
-
-
+// I dont own this k
 //                                              ====== FUN BOT SCRIPT  ======
 Array.prototype.Shift = function () { return Array.prototype.shift.call(this), this; };
 
@@ -731,11 +698,11 @@ if (window.location.hostname === "plug.dj") {
 
                     case "whywoot":
                         if (API.getUsers(data.un, PlugMod) || API.getUsers(data.un, PlugMod) || API.getUsers(data.un, Funbot.admins)) {
-                            API.sendChat("Plug gives you 1 point for wooting the current song if you don't like the song i suggest you remain neutral");
+                            API.sendChat("If you like this song, give it a woot! If you hate it, well, just keep it to yourself.");
                         } else if (command[1].indexOf("@") > -1) {
-                            API.sendChat(command[1] + " Plug gives you 1 point for wooting the current song if you don't like the song i suggest you remain neutral");
+                            API.sendChat(command[1] + " If you like this song, give it a woot! If you hate it, well, just keep it to yourself.");
                         } else {
-                            API.sendChat("Plug gives you 1 point for wooting the current song if you don't like the song i suggest you remain neutral");
+                            API.sendChat("If you like this song, give it a woot! If you hate it, well, just keep it to yourself.");
                         }
                         if (API.getUsers(data.un, Funbot.admins) || API.getUsers(data.un, PlugMod)) {
                             Funbot.misc.ready = false;
@@ -950,24 +917,18 @@ if (window.location.hostname === "plug.dj") {
                             var randomSentence = Math.floor(Math.random() * 6);
                             switch (randomSentence) {
                                 case 0:
-                                    API.sendChat("/me rubs sandpaper on " + command[1] + "'s scrotum");
-                                    break;
-                                case 1:
                                     API.sendChat("/me penetrates " + command[1] + " with a sharpie");
                                     break;
-                                case 2:
+                                case 1:
                                     API.sendChat("/me pokes " + command[1] + " in the eyes");
                                     break;
-                                case 3:
+                                case 2:
                                     API.sendChat("/me makes " + command[1] + "'s mother cry");
                                     break;
-                                case 4:
-                                    API.sendChat("/me pinches " + command[1] + "'s nipples super hard");
-                                    break;
-                                case 5:
+                                case 3:
                                     API.sendChat("/me gives " + command[1] + " a wet willy");
                                     break;
-                                case 6:
+                                case 4:
                                     API.sendChat("/me Sets " + command[1] + " hair on fire");
                                     break;
                             }
@@ -976,24 +937,18 @@ if (window.location.hostname === "plug.dj") {
                             var randomSentence = Math.floor(Math.random() * 6);
                             switch (randomSentence) {
                                 case 0:
-                                    API.sendChat("/me rubs sandpaper on " + command[1] + "'s scrotum");
-                                    break;
-                                case 1:
                                     API.sendChat("/me penetrates " + command[1] + " with a sharpie");
                                     break;
-                                case 2:
+                                case 1:
                                     API.sendChat("/me pokes " + command[1] + " in the eyes");
                                     break;
-                                case 3:
+                                case 2:
                                     API.sendChat("/me makes " + command[1] + "'s mother cry");
                                     break;
-                                case 4:
-                                    API.sendChat("/me pinches " + command[1] + "'s nipples super hard");
-                                    break;
-                                case 5:
+                                case 3:
                                     API.sendChat("/me gives " + command[1] + " a wet willy");
                                     break;
-                                case 6:
+                                case 4:
                                     API.sendChat("/me Sets " + command[1] + " hair on fire");
                                     break;
                             }
@@ -1047,12 +1002,6 @@ if (window.location.hostname === "plug.dj") {
                         var randomUser = Math.floor(Math.random() * crowd.length);
                         var randomSentence = Math.floor(Math.random() * 3);
                         switch (randomSentence) {
-                            case 0:
-                                API.sendChat("Hugs? Forget that!");
-                                setTimeout(function () {
-                                    API.sendChat("/me grabs @" + command[1] + "'s ass");
-                                }, 650);
-                                break;
                             case 1:
                                 API.sendChat("/me gives @" + command[1] + " a big bear hug");
                                 break;
@@ -1183,7 +1132,6 @@ if (window.location.hostname === "plug.dj") {
         	['how are you bot', 'bot how are you', 'hru bot', 'bot hru', 'doing good bot?', 'bot doing good?', 'hows it going bot', 'bot how is it going', 'how you doing bot', 'bot how you doing'], // "Hru" Messages
         	['ty bot', 'bot ty', 'thank you bot', 'bot thank you', 'thanks bot', 'bot thanks', 'thx bot', 'bot thx', 'thanks for asking bot', 'bot thanks for asking', 'thx for asking bot', 'bot thx for asking'], // "TY" Messages
         	['ily bot', 'bot ily', 'i love you bot', 'bot i love you', 'i luv you bot', 'bot i luv you', 'i luv u bot', 'bot i luv u', 'i luv you bot', 'i love you more bot', 'bot love you', 'love you bot'], // "Love" Messages
-        	['fuck you bot', 'bot fuck you', 'f u bot', 'bot f u', 'fuhk yuh bot', 'bot fuhk you'], // "Fuck" Messages
         	['bot shut up', 'shut up bot', 'stfu bot', 'bot stfu', 'hush bot', 'bot hush', 'hush it bot', 'bot hush it', 'be quiet bot', 'bot be quiet', 'shut the hell up bot', 'bot shut the hell up'], // "stfu" Messages
         	['i got to go', 'igtg', 'gtg', 'be back', 'going off', 'off to', 'have to go', 'bye bot', 'bot bye'] // "Afk" Messages
         ];
@@ -1192,8 +1140,6 @@ if (window.location.hostname === "plug.dj") {
 			['Hey!', 'Oh hey there!', 'Good day sir!', 'Hi', 'Howdy!', 'Waddup!'], // Hello Messages
 			['I\'m good thanks for asking :)', 'Doing great yo and yourself?', 'All Good Mate!', 'I\'m good thanks for asking!', 'Yeee i\'m cool and youself yo?'], // "Hru" Messages
 			["You're welcome! :D", "Your always welcome bro!", "No prob man.."], // "TY" Messages
-			['Fuck yeahh!! :D I love you too baby!', 'I love you too ;).....   Sex?... JK you don\'t want this big thing ;)', 'I love you too o.0', 'Sweet.. Love you to ;)'], // "Love" Messages
-			['Nah.. I don\'t need another fuck after giving your mom one last night.', '</input fuck> Jk... Fuck you too', '< Test fuck >.. Sorry 0% fucks were given by me.'], // "Fuck" Messages
 			['<Test/ShutUp ... Nope', 'Eat this http://i.imgur.com/CSq5xkH.gif', 'No you shut up!', 'But i was made to talk.. :(', 'Just because i am a bot doesn\'t mean you have to tell me to shut up. Why don\'t you shut up!', 'Hey idiot! Ever heard of pressing the "Ignore button"?'], // "stfu" messages
 			['See ya man!', 'Awww, See ya babe.', 'Glad you came by thanks! :kissing_heart:', 'Thanks for coming. Hope to see you soon! :blue_heart:'] // "Afk" Messages
         ];
