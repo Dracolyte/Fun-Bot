@@ -68,6 +68,8 @@ var blockedSongs = [
 "#SELFIE (Official Music Video)",
 "Heyayayay",
 "Rap God"
+"Sandstorm"
+"Sanic"
 ];
 
 // Keywords of blocked artist.
@@ -78,6 +80,8 @@ var blockedArtists = [
 "Justin Bieber",
 "Lil wayne",
 "Rebecca Black"
+"CopperCab"
+"Darude"
 ];
 
 // Filter Keywords
